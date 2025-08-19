@@ -1,0 +1,25 @@
+# venvs
+env/
+.venv/
+venv/
+
+secrets/
+# python cache
+__pycache__/
+*.pyc
+
+# git & IDE
+.git/
+.gitignore
+.vscode/
+.idea/
+# data/artifacts
+*.parquet
+*.csv
+*.json
+data/
+logs/
+
+# node/browsers caches
+node_modules/
+playwright/.cache/
